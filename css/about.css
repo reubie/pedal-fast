@@ -266,7 +266,6 @@ header.shrink {
 /* end of css navbar */
 
 /* start of content css */
-
 .hero {
     height: 100vh;
     padding-top: var(--header-height);
@@ -280,6 +279,7 @@ header.shrink {
 
 .slide {
     display: flex;
+    height: 0;
     overflow: hidden;
 }
 
@@ -298,6 +298,7 @@ header.shrink {
     width: 100%;
     transform: rotate(-70deg);
     transform-origin: bottom;
+    opacity: 0;
     transition: transform 1s cubic-bezier(0.175, 0.885, 0.32, 1.275),
         opacity 0.6s ease 0s;
 }
@@ -414,8 +415,7 @@ header.shrink {
     color: var(--txt-white);
 }
 
-
-section {
+.section {
     padding: 12rem 0 0;
 }
 
@@ -633,40 +633,36 @@ section {
     color: var(--txt-white);
 }
 
-/* start of footer */
 footer {
     background-color: var(--second-color);
     margin-top: 90px;
     padding-bottom: 60px;
-    bottom:0;
-    height: fit-content;
-    
 }
 
-.section-content {
-    padding: 4rem 4rem 0;
-    width: 100%;
-    height: auto;
-   
-}
 .footer-description {
     margin: 30px 0;
 }
+
 .socials {
     display: flex;
 }
+
 .socials > li ~ li {
     margin-left: 20px;
 }
+
 .socials > li > a {
     font-size: 1.5rem;
 }
+
 .socials > li > a:hover {
     color: var(--txt-white);
 }
+
 .footer-menu > li ~ li {
     margin-top: 20px;
 }
+
 .footer-menu > li > a {
     font-size: 1.5rem;
     text-transform: uppercase;
@@ -675,17 +671,49 @@ footer {
 .footer-menu > li > a:hover {
     color: var(--txt-white);
 }
-.footer-header {
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    color: var(--txt-white);
-}
 
 .subscribe-form > input {
     border: none;
     outline: none;
     padding: 10px 20px;
 }
+
+.footer-header {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: var(--txt-white);
+}
+
+/* .to-right {
+    transform: translateX(-200px);
+}
+
+.to-left {
+    transform: translateX(200px);
+}
+
+.to-right,
+.to-left,
+.to-top {
+    opacity: 0;
+    transition: all 1.5s ease 0s;
+}
+
+.to-right.show,
+.to-left.show {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.to-top {
+    transform: translateY(100px);
+}
+
+.to-top.show {
+    transform: translateY(0);
+    opacity: 1;
+} */
+
 /* ------------------------------------------------------------------------------------------------------------------------- */
 @media(max-width:991px){
     .section-content .logo{
