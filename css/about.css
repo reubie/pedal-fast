@@ -419,9 +419,11 @@ header.shrink {
 
 footer {
     background-color: var(--second-color);
-    /* margin-top: 90px; */
+    margin-top: 90px;
     padding-bottom: 60px;
     bottom:0;
+    height: fit-content;
+    
 }
 
 .section-content {
