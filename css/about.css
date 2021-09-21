@@ -35,6 +35,17 @@ ul {
 img {
     max-width: 100%;
 }
+.btn {
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: var(--second-color);
+    color: var(--txt-white);
+    transition: all 0.3s ease 0s;
+}
 
 /* css navbar */
 
@@ -50,6 +61,7 @@ header {
     justify-content: space-between;
     padding: 0 var(--header-padding);
     z-index: 99;
+    margin-bottom: 10rem;
     transition: height 0.3s ease 0s, background-color 0.3s ease 0s;
 }
 
@@ -244,3 +256,105 @@ header.shrink {
 
 }
 /* end of css navbar */
+
+/* start of footer */
+
+
+footer {
+    background-color: var(--second-color);
+    /* margin-top: 90px; */
+    padding-bottom: 60px;
+    position:absolute;
+    bottom:0;
+}
+
+.section-content {
+    padding: 4rem 4rem 0;
+    width: 100%;
+    height: auto;
+   
+}
+.footer-description {
+    margin: 30px 0;
+}
+.socials {
+    display: flex;
+}
+.socials > li ~ li {
+    margin-left: 20px;
+}
+.socials > li > a {
+    font-size: 1.5rem;
+}
+.socials > li > a:hover {
+    color: var(--txt-white);
+}
+.footer-menu > li ~ li {
+    margin-top: 20px;
+}
+.footer-menu > li > a {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.footer-menu > li > a:hover {
+    color: var(--txt-white);
+}
+.footer-header {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: var(--txt-white);
+}
+
+.subscribe-form > input {
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+}
+/* ------------------------------------------------------------------------------------------------------------------------- */
+@media(max-width:991px){
+    .section-content .logo{
+        padding: 0px 0;
+    }
+}
+@media(max-width:767px){
+    .footer-logo{
+        padding: 30px 0;
+    }
+
+    .section-content{
+        /* padding: 50px 0 50px; */
+        width: auto;
+    }
+    .footer-header{
+        padding-left: 0;
+        display: none;
+    }
+    .footer-description{
+        padding-left: 0;
+        display: none;
+    }
+    .footer-menu{
+        padding-left: 0;
+        display: none;
+    }
+    .subscribe-form{
+        padding-left: 0;
+        display: none;
+    }
+    .footer-menu ul{
+        padding-left: 0;
+        display: none;
+    }
+}
+@media(max-width:575px){
+    .footer-logo img{
+        width: 90px;
+    }
+    .socials{
+        height: 40px;
+        width: 40px;
+        line-height: 38px;
+        font-size: 20px;
+    }
+}
