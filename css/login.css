@@ -16,8 +16,13 @@ background: linear-gradient(0deg, rgba(34,140,195,1) 0%, rgba(81,192,163,1) 13%,
      color: white;
  }
  img{
-     position: absolute;
+    position: relative;
      margin-left: 0;
+ }
+ .ps{
+     top: 2rem;
+     position: relative;
+     width: 300px;
  }
 
  .button{
@@ -70,7 +75,7 @@ background: linear-gradient(0deg, rgba(34,140,195,1) 0%, rgba(81,192,163,1) 13%,
      align-items: center;
  }
  input[type=text],input[type=password] {
-     width: 80%;
+     width: 70%;
      padding: 15px;
      border: none;
      background: white;
