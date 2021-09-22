@@ -10,7 +10,7 @@
 :root {
     --main-color: white;
     --second-color: #423338;
-    --txt-color: #bbbbbb;
+    --txt-color: #0a0a0a;
     --txt-white: #ffffff;
     --bg-black: #FFA405;
 
@@ -338,7 +338,7 @@ header.shrink {
 }
 
 .slide-description > p {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     transition-delay: 0.3s;
 }
 
