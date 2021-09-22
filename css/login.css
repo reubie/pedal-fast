@@ -1,0 +1,116 @@
+
+
+*{
+    font-family:courier,arial,helvetica;
+}
+body{
+    background: rgb(34,140,195);
+background: linear-gradient(0deg, rgba(34,140,195,1) 0%, rgba(81,192,163,1) 13%, rgba(65,146,192,1) 30%, rgba(138,162,135,1) 44%, rgba(180,171,102,1) 60%, rgba(253,187,45,1) 89%, rgba(253,170,45,1) 97%);
+    align-items: center;
+    font-size: 20px;
+    width: 100%;
+}
+
+ #header{
+     text-align: center;
+     color: white;
+ }
+ img{
+     position: absolute;
+     margin-left: 0;
+ }
+
+ .button{
+     background-color: red;
+     border-radius: 10px;
+     padding: 10px 32px;
+     text-decoration: none;
+     margin: 4px 2px;
+     text-align: center;
+     color: white;
+     font-size: 18px;
+     justify-content: space-between;
+     margin-right: 10%;
+     border-color: red;
+     margin-left: 20px; 
+ }
+ 
+
+ .section{
+     display: flex;
+     align-items: center;
+     margin: auto;
+     width: 30%;
+    
+     
+ }
+
+ .sign{
+      background-color: white;
+     border-radius: 10px;
+     padding: 10px 32px;
+     text-decoration: none;
+     margin: 4px 2px;
+     text-align: center;
+     color: black;
+     font-size: 16px;
+     justify-content: end;
+     margin-left: 160px;
+     border-color: white;
+
+     
+
+ }
+
+ .container{
+     
+     /* margin-left: 460px; */
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+ input[type=text],input[type=password] {
+     width: 80%;
+     padding: 15px;
+     border: none;
+     background: white;
+     margin: 5px 0 22px 0;
+     display: inline-block;
+     border-radius: 10px;
+ }
+
+ input[type=text]:focus, input[type=password]:focus {
+     background-color: lightgrey;
+     outline: none;
+ }
+
+ .Login{
+     background-color:rgb(red, green, blue);
+     color: white;
+     padding: 16px 20px;
+     cursor: pointer;
+     width: 40%;
+     opacity: 0.9;
+     border: none;
+     border-radius: 10px;
+ }
+ .Login:hover {
+     opacity: 1;
+     color: pink;
+ }
+
+ .signup{
+    
+     text-align: center;
+     color: white;
+ }
+
+ a{
+    color:orange;
+    font-weight: 900;
+    text-decoration: none;
+ }
+
+ #rem{
+     color: white;
+ }
