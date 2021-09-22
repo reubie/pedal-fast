@@ -4,6 +4,7 @@
     font-family:courier,arial,helvetica;
 }
 body{
+    background: rgb(66,51,56);
     padding-top: 70px;
     align-items: center;
     background-color: #423338;
@@ -20,8 +21,16 @@ body{
      color: white;
  }
  img{
-     position: absolute;
+    position: relative;
      margin-left: 0;
+ }
+ .ps{
+     top: 2rem;
+     position: relative;
+     width: 300px;
+     color: whitesmoke;
+     font-weight: 1000px;
+     font-size: 18px;
  }
 
  .button{
@@ -54,14 +63,17 @@ body{
      text-decoration: none;
      margin: 4px 2px;
      text-align: center;
-     color: black;
+     color: white;
      font-size: 16px;
      justify-content: end;
      margin-left: 160px;
      border-color: white;
 
-     
 
+ }
+ p{
+     color: white;
+     font-size: 18px;
  }
 
  .container{
@@ -72,6 +84,9 @@ body{
      align-items: center;
  }
  input[type=text],input[type=password] {
+
+     padding: 15px;
+
      width: 300px;
      border: none;
      background: white;
@@ -93,18 +108,42 @@ body{
      opacity: 0.9;
      border: none;
      border-radius: 10px;
+     background-color: #FFA405;
  }
+#row1{
+     margin-top: 70px;
+ }
+ #row2{
+     margin-top: 40px;
+ }
+ .button1{
+   
+    color: white;
+    padding: 16px 20px;
+    cursor: pointer;
+    width: 40%;
+    opacity: 0.9;
+    border: none;
+    border-radius: 10px;
+    background-color: #FFA405;
+}
+
 
  .signup{
     
      text-align: center;
      color: white;
+     
  }
 
  a{
-    color:#FFA405;
+
+    color: white;
     font-weight: 900;
     text-decoration: none;
+ }
+ a:hover{
+     color: red;
  }
 
  #rem{
