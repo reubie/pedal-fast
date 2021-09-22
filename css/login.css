@@ -4,9 +4,8 @@
     font-family:courier,arial,helvetica;
 }
 body{
-    background: rgb(34,140,195);
-background: linear-gradient(0deg, rgba(34,140,195,1) 0%, rgba(81,192,163,1) 13%, rgba(65,146,192,1) 30%, rgba(138,162,135,1) 44%, rgba(180,171,102,1) 60%, rgba(253,187,45,1) 89%, rgba(253,170,45,1) 97%);
-    align-items: center;
+    background: rgb(66,51,56);
+    background: linear-gradient(0deg, rgba(66,51,56,1) 22%, rgba(119,83,42,1) 47%, rgba(190,125,23,1) 73%, rgba(215,140,16,1) 88%, rgba(255,164,5,1) 98%); align-items: center;
     font-size: 20px;
     width: 100%;
 }
@@ -23,6 +22,9 @@ background: linear-gradient(0deg, rgba(34,140,195,1) 0%, rgba(81,192,163,1) 13%,
      top: 2rem;
      position: relative;
      width: 300px;
+     color: whitesmoke;
+     font-weight: 1000px;
+     font-size: 18px;
  }
 
  .button{
@@ -57,14 +59,17 @@ background: linear-gradient(0deg, rgba(34,140,195,1) 0%, rgba(81,192,163,1) 13%,
      text-decoration: none;
      margin: 4px 2px;
      text-align: center;
-     color: black;
+     color: white;
      font-size: 16px;
      justify-content: end;
      margin-left: 160px;
      border-color: white;
 
-     
 
+ }
+ p{
+     color: white;
+     font-size: 18px;
  }
 
  .container{
@@ -98,7 +103,25 @@ background: linear-gradient(0deg, rgba(34,140,195,1) 0%, rgba(81,192,163,1) 13%,
      opacity: 0.9;
      border: none;
      border-radius: 10px;
+     background-color: #FFA405;
  }
+#row1{
+     margin-top: 70px;
+ }
+ #row2{
+     margin-top: 40px;
+ }
+ .button1{
+    background-color:rgb(red, green, blue);
+    color: white;
+    padding: 16px 20px;
+    cursor: pointer;
+    width: 40%;
+    opacity: 0.9;
+    border: none;
+    border-radius: 10px;
+    background-color: #FFA405;
+}
  .Login:hover {
      opacity: 1;
      color: pink;
@@ -108,12 +131,16 @@ background: linear-gradient(0deg, rgba(34,140,195,1) 0%, rgba(81,192,163,1) 13%,
     
      text-align: center;
      color: white;
+     
  }
 
  a{
-    color:orange;
+    color: white;
     font-weight: 900;
     text-decoration: none;
+ }
+ a:hover{
+     color: red;
  }
 
  #rem{
