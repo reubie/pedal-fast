@@ -4,6 +4,14 @@
 
 [Reuben Wachira Nguyo]
 
+## Members
+Reuben Wachira Nguyo
+Mary Njenga
+Jessica
+Timothy Mugendi
+Albunus Nyalita
+Ivy Mureithi
+
 ## Description
 
 This project is a web application for bike renting in town
