@@ -3,7 +3,7 @@ $(document).ready(function () {
     var name,email,password;
    
     $(".rent").click(function () {
-        location.replace("login.html");
+        location.replace("sign.html");
 
     });
     $(".Login").click(function (e) {
