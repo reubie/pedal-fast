@@ -3,7 +3,7 @@ $(document).ready(function () {
     var name,email,password;
    
     $(".rent").click(function () {
-        location.replace("sign.html");
+        location.replace("our-fleet.html");
 
     });
     $(".Login").click(function (e) {
@@ -15,12 +15,12 @@ $(document).ready(function () {
         if(name=="" ||name == null ||email=="" ||email == null ||password=="" ||password == null ){
             alert("Please fill in all details")
         }else{
-            location.replace("index.html");
+            location.replace("our-fleet.html.html");
         }
 
     });
     $(".Signup").click(function () {
-        location.replace("index.html");
+        location.replace("our-fleet.html.html");
         // alert("ghj")
 
     });
