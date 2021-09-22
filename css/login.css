@@ -5,9 +5,15 @@
 }
 body{
     background: rgb(66,51,56);
-    background: linear-gradient(0deg, rgba(66,51,56,1) 22%, rgba(119,83,42,1) 47%, rgba(190,125,23,1) 73%, rgba(215,140,16,1) 88%, rgba(255,164,5,1) 98%); align-items: center;
+    padding-top: 70px;
+    align-items: center;
+    background-color: #423338;
+    background-repeat: no-repeat;
+    background-size: 40% 90%;
     font-size: 20px;
     width: 100%;
+    background-image: url("../css/Assets/undraw_Ride_a_bicycle_2yok.svg");
+    
 }
 
  #header{
@@ -28,7 +34,6 @@ body{
  }
 
  .button{
-     background-color: red;
      border-radius: 10px;
      padding: 10px 32px;
      text-decoration: none;
@@ -38,7 +43,6 @@ body{
      font-size: 18px;
      justify-content: space-between;
      margin-right: 10%;
-     border-color: red;
      margin-left: 20px; 
  }
  
@@ -80,8 +84,10 @@ body{
      align-items: center;
  }
  input[type=text],input[type=password] {
-     width: 70%;
+
      padding: 15px;
+
+     width: 300px;
      border: none;
      background: white;
      margin: 5px 0 22px 0;
@@ -94,10 +100,9 @@ body{
      outline: none;
  }
 
- .Login{
-     background-color:rgb(red, green, blue);
+ .Login,.Signup{
+     background-color:#FFA405;
      color: white;
-     padding: 16px 20px;
      cursor: pointer;
      width: 40%;
      opacity: 0.9;
@@ -112,7 +117,7 @@ body{
      margin-top: 40px;
  }
  .button1{
-    background-color:rgb(red, green, blue);
+   
     color: white;
     padding: 16px 20px;
     cursor: pointer;
@@ -122,10 +127,7 @@ body{
     border-radius: 10px;
     background-color: #FFA405;
 }
- .Login:hover {
-     opacity: 1;
-     color: pink;
- }
+
 
  .signup{
     
@@ -135,6 +137,7 @@ body{
  }
 
  a{
+
     color: white;
     font-weight: 900;
     text-decoration: none;
@@ -145,4 +148,11 @@ body{
 
  #rem{
      color: white;
+ }
+ #form1{
+     color: white;
+     width: fit-content;
+     border: solid 3px;
+     padding-top: 10px;
+     border-color: #533f3c;
  }
