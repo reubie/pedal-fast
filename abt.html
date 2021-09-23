@@ -17,7 +17,7 @@
     <section class="navbar">
         <header>
             <a href="#" class="logo">
-                <img src="./imgs/lo.png" alt="">
+                <img src="imgs/bike-icon.png" alt="logo" class="navbar-brand ml-2" width="150" height="100">
             </a>
             <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon">
@@ -28,18 +28,13 @@
             </button>
             <div class="main-menu-wrapper">
                 <ul class="main-menu">
-                    <li><a href="#" class="active">Home</a></li>
-                    <li><a href="#" class="active">About</a></li>
-                    <li><a href="#" class="active">Explore</a></li>
-                    <li><a href="#" class="active">Reviews</a></li>
-                    <li><a href="#" class="active">Contacts</a></li>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="our-fleet.html">Explore</a></li>
+                    <li><a href="abt.html">About</a></li>                    
+                    <li><a href="working.html">Reviews</a></li>                
+                    <li><a href="sign.html">Sign Up</a></li>
                 </ul>
             </div>
-            <ul class="user-menu">
-                <li><a href="#"><i class='bx bx-shopping-bag'></i></a></li>
-                <li><a href="#"><i class='bx bx-user'></i></a></li>
-                <li><a href="#"><i class='bx bx-search'></i></a></li>
-            </ul>
         </header>
     </section>
     <!-- end header -->
@@ -139,48 +134,37 @@
     </body>
 
     <!-- start of footer -->
-    <footer>
-        <div class="section-content">
-            <div class="row">
-                <div class="col-4">
-                    <a href="#" class="logo">
-                        <img src="./images/TuaBike.png" alt="">
-                    </a>
-                    <p class="footer-description">
-                        
-                    </p>
-                    <ul class="socials">
-                        <li><a href="#"><i class="bx bxl-facebook-circle"></i></a></li>
-                        <li><a href="#"><i class="bx bxl-twitter"></i></a></li>
-                        <li><a href="#"><i class="bx bxl-youtube"></i></a></li>
-                    </ul>
+    <footer class="container-fluid">
+        <div class="row p-4">
+            <div class="company  col-lg-4 col-sm-6">
+                <a href="#">Terms</a><br>
+                <a href="#">About</a><br>
+                <a href="#">FAQs</a>
+            </div>
+            <div class="contacts col-lg-4 col-sm-6">
+                <div class="cont">
+                    <img id="mail" src="imgs/mail.png" alt="" height="30px" width="30px">
+
+                    <a class="descr" href="#">pedalfast@gmail.com</a>
                 </div>
-                <div class="col-2">
-                    <ul class="footer-menu">
-                        <li><a href="#">about</a></li>
-                        <li><a href="#">service</a></li>
-                        <li><a href="#">product</a></li>
-                        <li><a href="#">contact</a></li>
-                    </ul>
+                <div class="cont">
+                    <img src="imgs/time.png" alt="time" height="30px" width="30px">
+                    <p class="descr"> Mon-Sun: 8am -8pm</p>
                 </div>
-                <div class="col-2">
-                    <ul class="footer-menu">
-                        <li><a href="#">gallery</a></li>
-                        <li><a href="#">gears</a></li>
-                        <li><a href="#">faq</a></li>
-                        <li><a href="#">contact</a></li>
-                    </ul>
+                <div class="cont">
+                    <img src="imgs/location.png" alt="location" height="30px" width="30px">
+                    <a class="descr" href="#">Nairobi</a>
                 </div>
-                <div class="col-4">
-                    <h3 class="footer-header">
-                        news letter
-                    </h3>
-                    <p class="footer-description"></p>
-                    <div class="subscribe-form">
-                        <input type="text" name="" placeholder="Your Email...">
-                        <button class="btn">subscribe now</button>
-                    </div>
+            </div>
+            <div class="col-lg-4 col-sm-8">
+                <!-- <embed src="imgs/twitter.svg" alt="twitter"> -->
+                <div class="social" id="social">
+                    <img src="imgs/twitter.png" type="" width="30px" height="20px">
+                    <img src="imgs/ig.png" alt="instagram" height="20px" width="20px">
+                    <img src="imgs/facebk.png" alt="facebook" height="20px" width="20px">
                 </div>
+                <input type="email" name="" placeholder="Your Email..." class="mt-4">
+                <button class="btn subscribe">Subscribe Newsletter</button>
             </div>
         </div>
     </footer>

@@ -23,8 +23,10 @@ $("#checkout").datepicker({
 });
 
 
-function subt() {
-    var myText = "Your Booking has been completed successfully, please follow the instructions provided to pick the bike!";
-    alert (myText);
-  }
-
+// function subt() {
+//     var myText = "Your Booking has been completed successfully, please follow the instructions provided to pick the bike!";
+//     alert (myText);
+//   }
+$("#subt").click(function(){
+	alert("Your Booking has been completed successfully, please follow the instructions provided to pick the bike!")
+})

@@ -1,18 +1,21 @@
 body{
     background-image: url("../imgs/bg.png");
+    background-size: auto;
     background-repeat: no-repeat;
-    height: auto;
-    background-size: 100% 100%;
-    color: var(--txt-color);
-    font-family: MyriadProCondensed, sans-serif;
-    overflow-x: hidden;
+    background-size:cover;
+    background-position: center;
 }
-.navbar-nav{
-    margin-left: auto;
+/* .navbar-nav{
+    margin-left: 20%;
+} */
+.navbar-brand{
+    margin-right: 15%;
 }
 nav{
-    padding-right: 50px;
+    /* padding-right: 50px; */
     background-color: #423338;
+    height: 150px;
+
 }
 .orange{
     color: #FFA405;
@@ -20,13 +23,18 @@ nav{
 .navbar a,footer a{
     color: white !important;
     text-decoration: none;
+    font-size: 34px;
 }
 .navbar a:hover,footer a:hover{
     color: #FFA405 !important;
 }
+.nav-item{
+    padding-left: 15px;
+}
 .main{
     color: white;
     padding-left: 5%;
+
 }
 .rent{
     background-color: #FFA405;
@@ -43,15 +51,19 @@ nav{
 }
 .intro{
     font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
 }
 footer{
     padding-right: 50px;
     background-color: #423338;
     color: white;
-    margin-top: 300px;
+    margin-top: 100px;
+    position: fixed;
+    bottom: 0;
 }
 .cont{
     display: flex;
+    
 }
 .descr{
     padding-left: 5px;
@@ -60,5 +72,4 @@ footer{
     color: white;
     background-color: #FFA405;
     margin-top: 15px;
-    margin-left: 30px;
 }
