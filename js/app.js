@@ -86,3 +86,7 @@ loop = () => {
 }
 
 loop()
+$(".rent").click(function () {
+    location.replace("our-fleet.html");
+
+});

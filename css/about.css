@@ -10,8 +10,8 @@
 :root {
     --main-color: white;
     --second-color: #423338;
-    --txt-color: #0a0a0a;
-    --txt-white: #ffffff;
+    --txt-color: black;
+    --txt-white: #FFA405;
     --bg-black: #FFA405;
 
     --header-height: 144px;
@@ -53,6 +53,9 @@ img {
     background-color: var(--second-color);
     color: var(--txt-white);
     transition: all 0.3s ease 0s;
+}
+.logo{
+    height: auto;
 }
 
 /* css navbar */
@@ -420,7 +423,10 @@ header.shrink {
 }
 
 .section-content {
-    padding: 7rem 7rem 0;
+    padding: 4rem 4rem 2rem;
+    height: auto;
+    align-items: center;
+    bottom: o;
 }
 
 .section-title {
@@ -635,9 +641,8 @@ header.shrink {
 
 footer {
     background-color: var(--second-color);
-    margin-top: 90px;
-    padding-bottom: 60px;
     left: 0;
+    height: auto;
     top: 0;
     width: 100%;
     align-items: center;
@@ -733,7 +738,7 @@ footer {
 
 @media(max-width:767px){
     .footer-logo{
-        padding: 30px 0;
+        padding: 10px 0;
     }
    
     .footer-header{
