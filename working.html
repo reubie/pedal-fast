@@ -16,147 +16,192 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <!-- app css -->
     <script src="working.js"></script>
-    <!-- <link rel="stylesheet" href="./css/about.css"> -->
-    <link rel="stylesheet" href="./css/testimonials.css">
-    <!-- <link rel="stylesheet" href="./css/styles.css"> -->
-</head>
-<body 
-class="container">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/abt-styles.css">
     
-    <!-- header -->
-    <section class="navbar">
-        <header>
-            <a href="#" class="logo">
-                <img src="./imgs/loo.jpg" alt="">
-            </a>
-
-            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon">
-                    <span class="menu_line_1"></span>
-                    <span class="menu_line_2"></span>
-                    <span class="menu_line_3"></span>
-                </span>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <img src="imgs/bike-icon.png" alt="logo" class="navbar-brand ml-2" width="150" height="50">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
-
-            <div class="main-menu-wrapper">
-                <ul class="main-menu">
-                    <ul class="main-menu">
-                        <li><a href="index.html" class="active">Home</a></li>
-                        <li><a href="our-fleet.html">Explore</a></li>
-                        <li><a href="abt.html">About</a></li>                    
-                        <li><a href="working.html">Reviews</a></li>                
-                        <li><a href="sign.html">Sign Up</a></li>
-                    </ul>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="our-fleet.html">EXPLORE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="working.html">REVIEWS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="abt.html">ABOUT</a>
+                    </li>
+                    <li class="nav-item up">
+                        <a class="nav-link" href="sign.html">SIGNUP</a>
+                    </li>
                 </ul>
             </div>
-        </header>
-    </section>>
-    <!-- end header -->
- 
-   <div id="bikesWork">
-       <div class="section-title">
-        <h3 class="second-title to-right show-on-scroll">How Pedal Fast Works?</h3>
-        <h3 class="main-title to-left show-on-scroll">Get an awesome ride with this journey</h3>
-    </div>
-       <div id="bikes-descr">
-           <div> 
-               <p class="hovering" >Choose your bike</p>
-               <img src="./imgs/cycling.png" alt="motorcycle" width="180">
-               <p class="para2">Choose you bike</p>
-           </div>
-           <div>
-            <p class="hovering">Select pick and <br> drop
-                dates </p>
-               <img src="./imgs/calendar.png" alt="dates" width="150">
-               <p class="para2">Select pick and <br> drop
-               dates </p>
-           </div>
-           <div>
-               <p class="hovering">Book online and <br>
-                get notified </p>
-               <img src="./imgs/online-booking.png" alt="online booking" width="150">
-               <p class="para2">Book online and <br>
-               get notified </p>
-           </div>
-           <div>
-              <p class="hovering">Enjoy you ride</p>
-               <img src="./imgs/destination.png" alt="destination" width="150">
-               <p class="para2">Enjoy you ride</p>
-           </div>
-           <div>
-            <p class="hovering">Return and will <br>
-                refund the deposit </p>
-               <img src="./imgs/refund (1).png" alt="Refunding" width="150">
-               <p class="para2">Return and will <br>
-               refund the deposit </p>
-           </div>
+        </div>
+    </nav>
+
+    
+<section class="review" id="review">
+
+    <h1 class="heading"> customer's <span>review</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/quote-img.png" alt="" class="quote">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla sit libero nemo fuga sequi nobis? Necessitatibus aut laborum, nisi quas eaque laudantium consequuntur iste ex aliquam minus vel? Nemo.</p>
+            <img src="imgs/pic-1.png" class="user" alt="">
+            <h3>john deo</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
         </div>
 
-
-        <!-- <header>
-            <h1 class="Header"><strong>Our Happy Riders.</strong></h1>
-            <p class="Feedback">Here are some testimonials from our clients.</p>
-          </header> -->
-          <section class="container">
-            <div class="slider">
-              <div class="slide slide-1">
-                <div class="slide-text">
-                  <p class="testimonial-text">
-                    “
-                    I did enjoy the experience of biking around my neighbourhood . The bike rolled well making the long distances easier and the panniers were big, easy to carry and water resistant. I appreciate the support that you provided... You are great people, providing a wonderful service. ”
-                  </p>
-                  <p class="author-text">Tanya clair
-                    <span>Client.</span></p>
-                </div>
-                <div class="slide-img">
-                  <img src="./images/image1.jpg" alt="img">
-                </div>
-              </div>
-              <div class="slide slide-2">
-                <div class="slide-text">
-                  <p class="testimonial-text">
-                    “ We rented two bikes for one week to complete our 100km marathon. I can't express enough how smooth and stress-free our trip was. Thank you once again Pedal Fast for your extraordinary customer service in making our trip a huge success. ”
-                  </p>
-                  <p class="author-text">John and Tard
-                    <span>Cyclist.</span></p>
-                </div>
-                <div class="slide-img">
-                  <img src="./images/image2.jpg" alt="img">
-                </div>
-              </div>
-              <div class="slide slide-3">
-                <div class="slide-text">
-                  <p class="testimonial-text">
-                    “ Arrival on time, Bike was new and in very good shape, selected trial couldn't be better, places I visited were great, my best recommendation for the experience. ”
-                  </p>
-                  <p class="author-text">Terressa lori
-                    <span>Traveller.</span></p>
-                </div>
-                <div class="slide-img">
-                  <img src="./images/image3.jpg" alt="img">
-                </div>
-              </div>
-              <div class="slide slide-4">
-                <div class="slide-text">
-                  <p class="testimonial-text">
-                    “ I was worried that the hire bikes were going to be a let down, but the mountain bike I used was just as good as my hard-tail at home. Wanted to let you know that I had an awesome time and will recommend your company. ”
-                  </p>
-                  <p class="author-text">Joseph Steve
-                    <span> Student.</span></p>
-                </div>
-                <div class="slide-img">
-                  <img src="./images/image4.jpg" alt="img">
-                </div>
-              </div>
-              <div class="buttons">
-                <div class="next"></div>
-                <div class="prev"></div>
-              </div>
+        <div class="box">
+            <img src="images/quote-img.png" alt="" class="quote">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla sit libero nemo fuga sequi nobis? Necessitatibus aut laborum, nisi quas eaque laudantium consequuntur iste ex aliquam minus vel? Nemo.</p>
+            <img src="imgs/pic-2.png" class="user" alt="">
+            <h3>john deo</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
             </div>
-          </section>
+        </div>
         
-   </div>
-   
-   <script src="./js/scripts.js"></script>
+        <div class="box">
+            <img src="images/quote-img.png" alt="" class="quote">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla sit libero nemo fuga sequi nobis? Necessitatibus aut laborum, nisi quas eaque laudantium consequuntur iste ex aliquam minus vel? Nemo.</p>
+            <img src="imgs/pic-3.png" class="user" alt="">
+            <h3>john deo</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/quote-img.png" alt="" class="quote">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla sit libero nemo fuga sequi nobis? Necessitatibus aut laborum, nisi quas eaque laudantium consequuntur iste ex aliquam minus vel? Nemo.</p>
+            <img src="imgs/pic-1.png" class="user" alt="">
+            <h3>john deo</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/quote-img.png" alt="" class="quote">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla sit libero nemo fuga sequi nobis? Necessitatibus aut laborum, nisi quas eaque laudantium consequuntur iste ex aliquam minus vel? Nemo.</p>
+            <img src="imgs/pic-2.png" class="user" alt="">
+            <h3>john deo</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+        
+        <div class="box">
+            <img src="images/quote-img.png" alt="" class="quote">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla sit libero nemo fuga sequi nobis? Necessitatibus aut laborum, nisi quas eaque laudantium consequuntur iste ex aliquam minus vel? Nemo.</p>
+            <img src="imgs/pic-3.png" class="user" alt="">
+            <h3>john deo</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/quote-img.png" alt="" class="quote">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla sit libero nemo fuga sequi nobis? Necessitatibus aut laborum, nisi quas eaque laudantium consequuntur iste ex aliquam minus vel? Nemo.</p>
+            <img src="imgs/pic-2.png" class="user" alt="">
+            <h3>john deo</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+        
+        <div class="box">
+            <img src="images/quote-img.png" alt="" class="quote">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla sit libero nemo fuga sequi nobis? Necessitatibus aut laborum, nisi quas eaque laudantium consequuntur iste ex aliquam minus vel? Nemo.</p>
+            <img src="imgs/pic-3.png" class="user" alt="">
+            <h3>john deo</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/quote-img.png" alt="" class="quote">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla sit libero nemo fuga sequi nobis? Necessitatibus aut laborum, nisi quas eaque laudantium consequuntur iste ex aliquam minus vel? Nemo.</p>
+            <img src="imgs/pic-2.png" class="user" alt="">
+            <h3>john deo</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+        
+        <div class="box">
+            <img src="images/quote-img.png" alt="" class="quote">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla sit libero nemo fuga sequi nobis? Necessitatibus aut laborum, nisi quas eaque laudantium consequuntur iste ex aliquam minus vel? Nemo.</p>
+            <img src="imgs/pic-3.png" class="user" alt="">
+            <h3>john deo</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
 </body>
+
 </html>

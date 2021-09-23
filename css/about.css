@@ -37,6 +37,7 @@ a {
     text-decoration: none;
     color: unset;
     display: inline-block;
+    font-size: x-large;
 }
 
 ul {
@@ -83,7 +84,7 @@ header.shrink {
 
 .main-menu > li > a {
     text-transform: capitalize;
-    font-size: 1.8rem;
+    font-size: 2.8rem;
     color: var(--txt-color);
 }
 
