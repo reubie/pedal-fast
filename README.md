@@ -10,11 +10,12 @@
 + [Licence](#licence)
 + [Authors Info](#author-Info)
 ## Description
- Marie's PizzaInn is web application for a pizza inn where customers order different sizes of pizzas with their favorite crust and one or more toppings.
+ Pedal fast provides such services  by  leasing  bike/s to clients at a pocket friendly rate.
+
 
 ****
 ## Design
-[Design](https://i.postimg.cc/pTqkWTgT/design.jpg)
+[Design](https://i.postimg.cc/j5WKKq9y/Screenshot-from-2021-09-23-09-53-16.png)
 ****
 ## Behaviour Driven Development
 | Behaviour      | Input     | Output     |
@@ -71,7 +72,7 @@ SOFTWARE.
 
 ****
 [Go Back to the top](#pedal-fast)
-#### Authors
+## Authors
 *  Reuben Nyuyo
 * Albunus Nyalita
 * Ivy Mureithi
