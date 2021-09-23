@@ -1,42 +1,86 @@
-# Delani-Studio
+# Pedal Fast
 
-## Author
-
-[Reuben Wachira Nguyo]
-
+### Site image
+![Site Image](img/site.png)
+## Table of Content
++ [Description](#description)
++ [Behaviour Driven Development](#Behaviour-Driven-Development)
++ [Installation Requirement](#Installation)
++ [Technology Used](#technology-used)
++ [Licence](#licence)
++ [Authors Info](#author-Info)
 ## Description
+ Marie's PizzaInn is web application for a pizza inn where customers order different sizes of pizzas with their favorite crust and one or more toppings.
 
-This project is a web application for bike renting in town
+****
+## Design
+[Design](https://i.postimg.cc/pTqkWTgT/design.jpg)
+****
+## Behaviour Driven Development
+| Behaviour      | Input     | Output     |
+| :------------- | :----------: | -----------: |
+|  Empty form sign up   | User submits empty form | An error is message is displayed    |
+|  Valid input    | User enters a valid details and submits    | user is logged in and redirected to fill bike rent details |
+|  Checkout    | User submits the bike rent form   | Summary is displayed  |
 
 
-## Live Page 
-https://reubie.github.io/pedal-fast/
+****
+## Installation
+### Requirements
+* A computer
+* Access to the Internet
+### Installation Process
+* Lauch terminal
+* To install Git, run the following command: ```sudo apt-get install git-all```
+* Run the command 'git clone ```https://github.com/reubie/pedal-fast.git``` to clone the repository to your local computer.
+### Live link
+ Click on the link to view the site. ```https://reubie.github.io/pedal-fast/```
+****
+[Go Back to the top](#pedal-fast)
+## Technology Used
+* HTML - for page structure.
+* CSS - which was used to style the pages.
+* Javascript - for user interactivity.
+* jquery -used for DOM.
+
+****
+[Go Back to the top](#pedal-fast)
+## Licence
+MIT License
+
+Copyright (c) 2021 Reuben Nguyo
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 
-## Installation / Setup instruction
-* Open Terminal {Ctrl+Alt+T}
+****
+[Go Back to the top](#pedal-fast)
+#### Authors
+*  Reuben Nyuyo
+* Albunus Nyalita
+* Ivy Mureithi
+* Mary Njenga
+* Timothy Mugendi
+* Jessica Mwangi
 
-* git clone ```https://github.com/reubie/pedal-fast.git```
+## Authors Info
+* Slack Profile - [Fedal fast](https://app.slack.com/client/T077KKCG6/GLRQR61NW/user_profile/U027VKL1WLT?cdn_fallback=1)
+* Email - [Pedal fast](pedalfast@gmail.com)
 
-* cd Delani-Studio
-
-* code . or atom . depending on the text editor of your choise.
-
-## Technologies Used
-
-* [HTML5](https://github.com/topics/html5)
-* [CSS](https://github.com/topics/css3)
-* [Bootstrap](https://github.com/topics/bootstrap)
-* [jQuery](https://github.com/topics/javascript)
-* markdown
-
-## Known Bugs
-* none so far
-
-## Contact Information 
-
-If you have any question or contributions, please email me at [r.nguyo27@gmail.com]
-
-## License
-* *MIT License:*
-* Copyright (c) 2021 **Reuben Wachira Nguyo**
+[Go Back to the top](#pedal-fast)
