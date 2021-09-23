@@ -28,6 +28,8 @@
 //     alert (myText);
 //   }
 $("#subt").click(function(){
-	alert("Your Booking has been completed successfully, please follow the instructions provided to pick the bike!")
-	document.location='google.com'
-})
+	alert("Your Booking has been completed successfully, please follow the instructions provided to pick the bike!") 
+	window.location = "http://www.google.com/";
+	
+});
+
