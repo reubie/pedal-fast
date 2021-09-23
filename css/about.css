@@ -11,7 +11,7 @@
 :root {
     --main-color: white;
     --second-color: #423338;
-    --txt-color: white;
+    --txt-color: black;
     --txt-white: #FFA405;
     --bg-black: #FFA405;
 
@@ -83,7 +83,7 @@ header.shrink {
 
 .main-menu > li > a {
     text-transform: capitalize;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     color: var(--txt-color);
 }
 
