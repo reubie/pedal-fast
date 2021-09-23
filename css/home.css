@@ -1,7 +1,11 @@
 body{
     background-image: url("../imgs/bg.png");
     background-repeat: no-repeat;
+    height: auto;
     background-size: 100% 100%;
+    color: var(--txt-color);
+    font-family: MyriadProCondensed, sans-serif;
+    overflow-x: hidden;
 }
 .navbar-nav{
     margin-left: auto;
@@ -44,7 +48,7 @@ footer{
     padding-right: 50px;
     background-color: #423338;
     color: white;
-    margin-top: 100px;
+    margin-top: 300px;
 }
 .cont{
     display: flex;
@@ -56,5 +60,5 @@ footer{
     color: white;
     background-color: #FFA405;
     margin-top: 15px;
-    margin-left: 25px;
+    margin-left: 30px;
 }
