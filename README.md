@@ -1,7 +1,7 @@
 # Pedal Fast
 
 ### Site image
-![Site Image](img/site.png)
+![Site Image](imgs/site.png)
 ## Table of Content
 + [Description](#description)
 + [Behaviour Driven Development](#Behaviour-Driven-Development)
