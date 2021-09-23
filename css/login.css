@@ -1,0 +1,119 @@
+
+
+*{
+    font-family:courier,arial,helvetica;
+}
+body{
+    padding-top: 70px;
+    align-items: center;
+    background-color: #423338;
+    background-repeat: no-repeat;
+    background-size: 40% 90%;
+    font-size: 20px;
+    width: 100%;
+    background-image: url("../css/Assets/undraw_Ride_a_bicycle_2yok.svg");
+    
+}
+
+ #header{
+     text-align: center;
+     color: white;
+ }
+ img{
+     position: absolute;
+     margin-left: 0;
+ }
+
+ .button{
+     border-radius: 10px;
+     padding: 10px 32px;
+     text-decoration: none;
+     margin: 4px 2px;
+     text-align: center;
+     color: white;
+     font-size: 18px;
+     justify-content: space-between;
+     margin-right: 10%;
+     margin-left: 20px; 
+ }
+ 
+
+ .section{
+     display: flex;
+     align-items: center;
+     margin: auto;
+     width: 30%;
+    
+     
+ }
+
+ .sign{
+      background-color: white;
+     border-radius: 10px;
+     padding: 10px 32px;
+     text-decoration: none;
+     margin: 4px 2px;
+     text-align: center;
+     color: black;
+     font-size: 16px;
+     justify-content: end;
+     margin-left: 160px;
+     border-color: white;
+
+     
+
+ }
+
+ .container{
+     
+     /* margin-left: 460px; */
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+ input[type=text],input[type=password] {
+     width: 300px;
+     border: none;
+     background: white;
+     margin: 5px 0 22px 0;
+     display: inline-block;
+     border-radius: 10px;
+ }
+
+ input[type=text]:focus, input[type=password]:focus {
+     background-color: lightgrey;
+     outline: none;
+ }
+
+ .Login,.Signup{
+     background-color:#FFA405;
+     color: white;
+     cursor: pointer;
+     width: 40%;
+     opacity: 0.9;
+     border: none;
+     border-radius: 10px;
+ }
+
+ .signup{
+    
+     text-align: center;
+     color: white;
+ }
+
+ a{
+    color:#FFA405;
+    font-weight: 900;
+    text-decoration: none;
+ }
+
+ #rem{
+     color: white;
+ }
+ #form1{
+     color: white;
+     width: fit-content;
+     border: solid 3px;
+     padding-top: 10px;
+     border-color: #533f3c;
+ }

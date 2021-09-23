@@ -1,4 +1,4 @@
-# Delani-Studio
+# Pedal Fast
 
 ## Author
 
