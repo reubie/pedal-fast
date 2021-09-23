@@ -153,3 +153,7 @@ body{
      padding-top: 10px;
      border-color: #533f3c;
  }
+ .display{
+     color: #FFA405;
+     display: none;
+ }
