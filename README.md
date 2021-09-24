@@ -1,5 +1,11 @@
 # Pedal Fast
-
+## Authors
+*  Reuben Nyuyo
+* Albunus Nyalita
+* Ivy Mureithi
+* Mary Njenga
+* Timothy Mugendi
+* Jessica Mwangi
 ### Site image
 ![Site Image](imgs/site.png)
 ## Table of Content
@@ -72,13 +78,7 @@ SOFTWARE.
 
 ****
 [Go Back to the top](#pedal-fast)
-## Authors
-*  Reuben Nyuyo
-* Albunus Nyalita
-* Ivy Mureithi
-* Mary Njenga
-* Timothy Mugendi
-* Jessica Mwangi
+
 
 ## Authors Info
 * Slack Profile - [Fedal fast](https://app.slack.com/client/T077KKCG6/GLRQR61NW/user_profile/U027VKL1WLT?cdn_fallback=1)
