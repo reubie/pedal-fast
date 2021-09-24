@@ -2,15 +2,7 @@
 
 ## Author
 
-[Reuben Wachira Nguyo]
-
-## Members
-* Reuben Wachira Nguyo
-* Mary Njenga
-* Jessica
-* Timothy Mugendi
-* Albunus Nyalita
-* Ivy Mureithi
+[Reuben Wachira Nguyo] 
 
 ## Description
 
