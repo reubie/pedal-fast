@@ -85,7 +85,8 @@ header.shrink {
 .main-menu > li > a {
     text-transform: capitalize;
     font-size: 2.8rem;
-    color: var(--txt-color);
+    /* color: var(--txt-color); */
+    color: white;
 }
 
 .main-menu > li > a.active {
@@ -113,6 +114,10 @@ header.shrink {
 
 .user-menu > li ~ li {
     margin-left: 20px;
+}
+footer a{
+    color: white !important;
+    text-decoration: none;
 }
 
 /* -------------------------------------------------------------------------------------------------------------------------- */
